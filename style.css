@@ -1,0 +1,84 @@
+input:checked{
+    height: 20px;
+    width: 20px;
+    accent-color:pink;
+}
+input:enabled{
+    background-color: white;
+}
+input:disabled{
+    background-color: blue;
+}
+p:empty{
+    width: 150px;
+    height: 15px;
+    background-color: red;
+}
+.main-box{
+    border: 2px solid chartreuse;
+    height: 600px;
+    width: 700px;
+}
+.sub-box{
+   border: 2px solid red;
+    height: 200px;
+    width: 600px; 
+}
+
+div.main-box p:first-of-type{
+    color: tomato;
+}
+div.main-box p:nth-child(3){
+    color: hotpink;
+}
+div.main-box p:nth-child(4){
+    color: greenyellow;
+}
+div.main-box p:last-of-type{
+    color: purple;
+}
+span:last-child{
+    color:red;
+}
+
+/*input:focus{
+    background-color: green;
+}*/
+
+input:in-range{
+    border: 2px solid salmon;
+}
+input:out-of-range{
+    border: 2px solid red;
+    /*background-color: red;*/
+}
+input:valid{
+    color: darkcyan;
+    border: 2px solid blue;
+}
+input:invalid{
+    color: yellow;
+    border: 2px solid red;
+}
+
+/*p{
+  color: green:
+}
+:not(p){
+    color: red;
+}*/
+
+div.main p:nth-child(2){
+    color: darkred;
+}
+div.sub p:nth-child(2){
+    color:brown;
+}
+div.main p:nth-last-of-type(1){
+    color: green; 
+}
+
+
+
+
+
